@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+@testable import RxItunesService
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,16 +20,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // Test album
-        let repository = AlbumRepository()
-        
-        repository.album(withText: "Extremoduro")
+//        let repository = AlbumRepository()
+//
+//        repository.album(withText: "Extremoduro")
+//            .subscribe(onNext: { albums in
+//                print(albums)
+//            }, onError: { error in
+//                print(error)
+//            })
+//            .disposed(by: disposeBag)
+
+        WebService().load(Result<Album>.self, from: .album(withText: "Extremoduro", limit: 10))
+            .map{ $0.results }
             .subscribe(onNext: { albums in
                 print(albums)
             }, onError: { error in
                 print(error)
             })
             .disposed(by: disposeBag)
-    
         
         return true
     }
