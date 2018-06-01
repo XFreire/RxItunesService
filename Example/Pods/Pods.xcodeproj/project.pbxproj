@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29E86CE562708F474AD7B0E869E42A81 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7550C0A94FAB407E0CA13B2D61460D0 /* ReplaceMe.swift */; };
 		2F7EFEB3AF44C75144FDB8BCA3B9CFA6 /* RxItunesService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 556EFB4C5CD67B20A0D2AF1599415C46 /* RxItunesService-dummy.m */; };
 		307C55F366D69B7079362F34093364D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4B352ABE20C13A39000A5D45 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B352ABD20C13A39000A5D45 /* Album.swift */; };
 		51EFD766158900B71F8CF2C2EFFF9050 /* RxItunesService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B45CA57997E6A96FCC1F7657DCD97A6 /* RxItunesService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65CC22157C6F4EC0BF07FF23B1AB0A0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6A4C2A7600A91C343FE0F126FA2ABB65 /* Pods-RxItunesService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C873EEC89B5207FA6419A4BD86E95 /* Pods-RxItunesService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,16 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		133F8357DF62E135CD6B0C8BA5BFAE1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		133F8357DF62E135CD6B0C8BA5BFAE1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E7E95DA5D16C489A97F0379686DD627 /* Pods-RxItunesService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxItunesService_Example-dummy.m"; sourceTree = "<group>"; };
 		22B54C9B20EF35EDC0A22D5A8A925007 /* Pods-RxItunesService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxItunesService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		22EEA16A31C8BEDA76B88DCBB9CAA8C6 /* Pods-RxItunesService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxItunesService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B45CA57997E6A96FCC1F7657DCD97A6 /* RxItunesService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxItunesService-umbrella.h"; sourceTree = "<group>"; };
-		3CF302A42309391E53ED01594C3D5F25 /* Pods_RxItunesService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxItunesService_Example.framework; path = "Pods-RxItunesService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF302A42309391E53ED01594C3D5F25 /* Pods_RxItunesService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxItunesService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EADC6387AB57E8B84B4A95D9EDC38E0 /* Pods-RxItunesService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxItunesService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		44A18CD02D11C4A9B033FF023ED06390 /* Pods-RxItunesService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxItunesService_Example.modulemap"; sourceTree = "<group>"; };
 		468CB7269A4A7186E74892F6E6DAFD6B /* Pods-RxItunesService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxItunesService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4731871410A2EE1F9F71116F19FCA559 /* Pods-RxItunesService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxItunesService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4B352ABD20C13A39000A5D45 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Album.swift; path = RxItunesService/Classes/Album.swift; sourceTree = "<group>"; };
 		556EFB4C5CD67B20A0D2AF1599415C46 /* RxItunesService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxItunesService-dummy.m"; sourceTree = "<group>"; };
 		58B4D2F115E7B9857A570D273858A536 /* Pods-RxItunesService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxItunesService_Tests.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,18 +57,17 @@
 		76FD2E1FF3263464E79526F397799D53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82674C3F6434396320EF9ECD43D30346 /* RxItunesService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxItunesService.xcconfig; sourceTree = "<group>"; };
 		8A085AF095CE5098CBFEA339FAE71115 /* RxItunesService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxItunesService-prefix.pch"; sourceTree = "<group>"; };
-		925089E297C9290AB550FAEEAD0EEA95 /* Pods_RxItunesService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxItunesService_Tests.framework; path = "Pods-RxItunesService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925089E297C9290AB550FAEEAD0EEA95 /* Pods_RxItunesService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxItunesService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93157827029B043FBFAB50909533ED50 /* Pods-RxItunesService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxItunesService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A41351AFBA880CF72A22EFFDB99E632 /* RxItunesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxItunesService.framework; path = RxItunesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A41351AFBA880CF72A22EFFDB99E632 /* RxItunesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxItunesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC5C5F2C3DD9E2CEAD5E541FDAA0501 /* Pods-RxItunesService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9ED3705C0E9DDFA7ABA9E6F64BCC44B3 /* RxItunesService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RxItunesService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED3705C0E9DDFA7ABA9E6F64BCC44B3 /* RxItunesService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RxItunesService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6A191300D2B46442F418A10C5A970AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7E8349F87C3051FEB13DF11131E9DEB /* Pods-RxItunesService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BBB88F2D477AEF2DCD2DD7E12A3364A2 /* Pods-RxItunesService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxItunesService_Tests-dummy.m"; sourceTree = "<group>"; };
 		BBBF4DDA7C0C0D23D52AC76EECEE4726 /* Pods-RxItunesService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Example-resources.sh"; sourceTree = "<group>"; };
-		C7550C0A94FAB407E0CA13B2D61460D0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RxItunesService/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		D7855E732A7067E272D15779D128D5A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D7855E732A7067E272D15779D128D5A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E96C873EEC89B5207FA6419A4BD86E95 /* Pods-RxItunesService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxItunesService_Example-umbrella.h"; sourceTree = "<group>"; };
 		EB918F5DFC1A26BB945E695F314208F2 /* Pods-RxItunesService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Tests-resources.sh"; sourceTree = "<group>"; };
 		EE698EC0E0B942E8F83B82974683D6D3 /* Pods-RxItunesService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxItunesService_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		1AF42D3B227B6389CD8E70C9E6D6B186 /* RxItunesService */ = {
 			isa = PBXGroup;
 			children = (
-				C7550C0A94FAB407E0CA13B2D61460D0 /* ReplaceMe.swift */,
+				4B352ABD20C13A39000A5D45 /* Album.swift */,
 				14664FB4A4C37A4F19399AB003113DE8 /* Pod */,
 				8C06F57249D70EFE46D67A0F427ECB2A /* Support Files */,
 			);
@@ -343,8 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E86CE562708F474AD7B0E869E42A81 /* ReplaceMe.swift in Sources */,
 				2F7EFEB3AF44C75144FDB8BCA3B9CFA6 /* RxItunesService-dummy.m in Sources */,
+				4B352ABE20C13A39000A5D45 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
