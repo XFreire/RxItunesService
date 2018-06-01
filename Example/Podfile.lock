@@ -1,0 +1,16 @@
+PODS:
+  - RxItunesService (0.1.0)
+
+DEPENDENCIES:
+  - RxItunesService (from `../`)
+
+EXTERNAL SOURCES:
+  RxItunesService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxItunesService: b9a39063018c7e22e490e66dd89b130610994fa0
+
+PODFILE CHECKSUM: 73ae0a5470dc069003675b20b89936e389cb531e
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E86CE562708F474AD7B0E869E42A81 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7550C0A94FAB407E0CA13B2D61460D0 /* ReplaceMe.swift */; };
+		2F7EFEB3AF44C75144FDB8BCA3B9CFA6 /* RxItunesService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 556EFB4C5CD67B20A0D2AF1599415C46 /* RxItunesService-dummy.m */; };
+		307C55F366D69B7079362F34093364D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		51EFD766158900B71F8CF2C2EFFF9050 /* RxItunesService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B45CA57997E6A96FCC1F7657DCD97A6 /* RxItunesService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CC22157C6F4EC0BF07FF23B1AB0A0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6A4C2A7600A91C343FE0F126FA2ABB65 /* Pods-RxItunesService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C873EEC89B5207FA6419A4BD86E95 /* Pods-RxItunesService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFA8BF7F97067AFA1F3FE6A480F52BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D7EFAE0568693D8A58B5048450D373DB /* Pods-RxItunesService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E95DA5D16C489A97F0379686DD627 /* Pods-RxItunesService_Example-dummy.m */; };
+		E4082EB2428F9CD19392559F0C8F0772 /* Pods-RxItunesService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE698EC0E0B942E8F83B82974683D6D3 /* Pods-RxItunesService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F870F382CEA5526221860F5CB4CED543 /* Pods-RxItunesService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB88F2D477AEF2DCD2DD7E12A3364A2 /* Pods-RxItunesService_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FE1CF33D9AF45ED13E4AA931094491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6796AC8362F35D6AF26B1F5ABE262126;
+			remoteInfo = "Pods-RxItunesService_Example";
+		};
+		DB8321A5ACBBD36E6DEC6F1E7054E390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8005644C54843E6E3974C46BA075B65;
+			remoteInfo = RxItunesService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133F8357DF62E135CD6B0C8BA5BFAE1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E7E95DA5D16C489A97F0379686DD627 /* Pods-RxItunesService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxItunesService_Example-dummy.m"; sourceTree = "<group>"; };
+		22B54C9B20EF35EDC0A22D5A8A925007 /* Pods-RxItunesService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxItunesService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22EEA16A31C8BEDA76B88DCBB9CAA8C6 /* Pods-RxItunesService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxItunesService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B45CA57997E6A96FCC1F7657DCD97A6 /* RxItunesService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxItunesService-umbrella.h"; sourceTree = "<group>"; };
+		3CF302A42309391E53ED01594C3D5F25 /* Pods_RxItunesService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxItunesService_Example.framework; path = "Pods-RxItunesService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EADC6387AB57E8B84B4A95D9EDC38E0 /* Pods-RxItunesService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxItunesService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44A18CD02D11C4A9B033FF023ED06390 /* Pods-RxItunesService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxItunesService_Example.modulemap"; sourceTree = "<group>"; };
+		468CB7269A4A7186E74892F6E6DAFD6B /* Pods-RxItunesService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxItunesService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4731871410A2EE1F9F71116F19FCA559 /* Pods-RxItunesService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxItunesService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		556EFB4C5CD67B20A0D2AF1599415C46 /* RxItunesService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxItunesService-dummy.m"; sourceTree = "<group>"; };
+		58B4D2F115E7B9857A570D273858A536 /* Pods-RxItunesService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxItunesService_Tests.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A6291A4EA8BF949BD3ABEACA49617F5 /* Pods-RxItunesService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxItunesService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6C068F04297678176175C97E494585B0 /* Pods-RxItunesService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxItunesService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71C80319B7D84A12DA83746A64112750 /* RxItunesService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxItunesService.modulemap; sourceTree = "<group>"; };
+		76FD2E1FF3263464E79526F397799D53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82674C3F6434396320EF9ECD43D30346 /* RxItunesService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxItunesService.xcconfig; sourceTree = "<group>"; };
+		8A085AF095CE5098CBFEA339FAE71115 /* RxItunesService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxItunesService-prefix.pch"; sourceTree = "<group>"; };
+		925089E297C9290AB550FAEEAD0EEA95 /* Pods_RxItunesService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxItunesService_Tests.framework; path = "Pods-RxItunesService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93157827029B043FBFAB50909533ED50 /* Pods-RxItunesService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxItunesService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A41351AFBA880CF72A22EFFDB99E632 /* RxItunesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxItunesService.framework; path = RxItunesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC5C5F2C3DD9E2CEAD5E541FDAA0501 /* Pods-RxItunesService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9ED3705C0E9DDFA7ABA9E6F64BCC44B3 /* RxItunesService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RxItunesService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A191300D2B46442F418A10C5A970AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E8349F87C3051FEB13DF11131E9DEB /* Pods-RxItunesService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BBB88F2D477AEF2DCD2DD7E12A3364A2 /* Pods-RxItunesService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxItunesService_Tests-dummy.m"; sourceTree = "<group>"; };
+		BBBF4DDA7C0C0D23D52AC76EECEE4726 /* Pods-RxItunesService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Example-resources.sh"; sourceTree = "<group>"; };
+		C7550C0A94FAB407E0CA13B2D61460D0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RxItunesService/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D7855E732A7067E272D15779D128D5A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E96C873EEC89B5207FA6419A4BD86E95 /* Pods-RxItunesService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxItunesService_Example-umbrella.h"; sourceTree = "<group>"; };
+		EB918F5DFC1A26BB945E695F314208F2 /* Pods-RxItunesService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxItunesService_Tests-resources.sh"; sourceTree = "<group>"; };
+		EE698EC0E0B942E8F83B82974683D6D3 /* Pods-RxItunesService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxItunesService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F5163025356351813B864F0339C5E4B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CEAD62211703DAAAF7A589CFDECB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFA8BF7F97067AFA1F3FE6A480F52BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BD71AF013FDBC1B890C53D48669BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CC22157C6F4EC0BF07FF23B1AB0A0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9174A6326D255C4D6EE2BEAF95A314D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C55F366D69B7079362F34093364D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14664FB4A4C37A4F19399AB003113DE8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D7855E732A7067E272D15779D128D5A8 /* LICENSE */,
+				133F8357DF62E135CD6B0C8BA5BFAE1B /* README.md */,
+				9ED3705C0E9DDFA7ABA9E6F64BCC44B3 /* RxItunesService.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1AF42D3B227B6389CD8E70C9E6D6B186 /* RxItunesService */ = {
+			isa = PBXGroup;
+			children = (
+				C7550C0A94FAB407E0CA13B2D61460D0 /* ReplaceMe.swift */,
+				14664FB4A4C37A4F19399AB003113DE8 /* Pod */,
+				8C06F57249D70EFE46D67A0F427ECB2A /* Support Files */,
+			);
+			name = RxItunesService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22F10E2CEF053E0289F1099198917469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF302A42309391E53ED01594C3D5F25 /* Pods_RxItunesService_Example.framework */,
+				925089E297C9290AB550FAEEAD0EEA95 /* Pods_RxItunesService_Tests.framework */,
+				9A41351AFBA880CF72A22EFFDB99E632 /* RxItunesService.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DDE79EE4F7D7E7C77ADD3A9AC861AA5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA7FD5F04F921C06F16EFA1CAF2C815 /* Pods-RxItunesService_Example */,
+				E457AAA6B18A0539BFFDFE40BEE82529 /* Pods-RxItunesService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DA2EC2AE6EFE5136548FDA01E8ABFF0C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				22F10E2CEF053E0289F1099198917469 /* Products */,
+				6DDE79EE4F7D7E7C77ADD3A9AC861AA5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C06F57249D70EFE46D67A0F427ECB2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A191300D2B46442F418A10C5A970AB /* Info.plist */,
+				71C80319B7D84A12DA83746A64112750 /* RxItunesService.modulemap */,
+				82674C3F6434396320EF9ECD43D30346 /* RxItunesService.xcconfig */,
+				556EFB4C5CD67B20A0D2AF1599415C46 /* RxItunesService-dummy.m */,
+				8A085AF095CE5098CBFEA339FAE71115 /* RxItunesService-prefix.pch */,
+				2B45CA57997E6A96FCC1F7657DCD97A6 /* RxItunesService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RxItunesService";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDA7FD5F04F921C06F16EFA1CAF2C815 /* Pods-RxItunesService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				76FD2E1FF3263464E79526F397799D53 /* Info.plist */,
+				44A18CD02D11C4A9B033FF023ED06390 /* Pods-RxItunesService_Example.modulemap */,
+				93157827029B043FBFAB50909533ED50 /* Pods-RxItunesService_Example-acknowledgements.markdown */,
+				22EEA16A31C8BEDA76B88DCBB9CAA8C6 /* Pods-RxItunesService_Example-acknowledgements.plist */,
+				1E7E95DA5D16C489A97F0379686DD627 /* Pods-RxItunesService_Example-dummy.m */,
+				B7E8349F87C3051FEB13DF11131E9DEB /* Pods-RxItunesService_Example-frameworks.sh */,
+				BBBF4DDA7C0C0D23D52AC76EECEE4726 /* Pods-RxItunesService_Example-resources.sh */,
+				E96C873EEC89B5207FA6419A4BD86E95 /* Pods-RxItunesService_Example-umbrella.h */,
+				5A6291A4EA8BF949BD3ABEACA49617F5 /* Pods-RxItunesService_Example.debug.xcconfig */,
+				4731871410A2EE1F9F71116F19FCA559 /* Pods-RxItunesService_Example.release.xcconfig */,
+			);
+			name = "Pods-RxItunesService_Example";
+			path = "Target Support Files/Pods-RxItunesService_Example";
+			sourceTree = "<group>";
+		};
+		DA2EC2AE6EFE5136548FDA01E8ABFF0C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF42D3B227B6389CD8E70C9E6D6B186 /* RxItunesService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E457AAA6B18A0539BFFDFE40BEE82529 /* Pods-RxItunesService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5163025356351813B864F0339C5E4B4 /* Info.plist */,
+				58B4D2F115E7B9857A570D273858A536 /* Pods-RxItunesService_Tests.modulemap */,
+				22B54C9B20EF35EDC0A22D5A8A925007 /* Pods-RxItunesService_Tests-acknowledgements.markdown */,
+				3EADC6387AB57E8B84B4A95D9EDC38E0 /* Pods-RxItunesService_Tests-acknowledgements.plist */,
+				BBB88F2D477AEF2DCD2DD7E12A3364A2 /* Pods-RxItunesService_Tests-dummy.m */,
+				9DC5C5F2C3DD9E2CEAD5E541FDAA0501 /* Pods-RxItunesService_Tests-frameworks.sh */,
+				EB918F5DFC1A26BB945E695F314208F2 /* Pods-RxItunesService_Tests-resources.sh */,
+				EE698EC0E0B942E8F83B82974683D6D3 /* Pods-RxItunesService_Tests-umbrella.h */,
+				6C068F04297678176175C97E494585B0 /* Pods-RxItunesService_Tests.debug.xcconfig */,
+				468CB7269A4A7186E74892F6E6DAFD6B /* Pods-RxItunesService_Tests.release.xcconfig */,
+			);
+			name = "Pods-RxItunesService_Tests";
+			path = "Target Support Files/Pods-RxItunesService_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34250B5BFB6243C8A1CD597F1C155D56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4082EB2428F9CD19392559F0C8F0772 /* Pods-RxItunesService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8485AA02E7A0AE746100D0F9C4138EE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4C2A7600A91C343FE0F126FA2ABB65 /* Pods-RxItunesService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB70EAB2358C6AF3F519C05C157159D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EFD766158900B71F8CF2C2EFFF9050 /* RxItunesService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5319DC2BD5EAE910BEC8DBEE5E61CF3D /* Pods-RxItunesService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DED7BCBA098953AF79373119A031A5 /* Build configuration list for PBXNativeTarget "Pods-RxItunesService_Tests" */;
+			buildPhases = (
+				90BFAA74CED2D60B6C0B5063A7695330 /* Sources */,
+				B6CEAD62211703DAAAF7A589CFDECB9E /* Frameworks */,
+				34250B5BFB6243C8A1CD597F1C155D56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C695E9CB1BC08D0815F03A208027E74B /* PBXTargetDependency */,
+			);
+			name = "Pods-RxItunesService_Tests";
+			productName = "Pods-RxItunesService_Tests";
+			productReference = 925089E297C9290AB550FAEEAD0EEA95 /* Pods_RxItunesService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6796AC8362F35D6AF26B1F5ABE262126 /* Pods-RxItunesService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29490E0D96C23B30387B0FF1B879B589 /* Build configuration list for PBXNativeTarget "Pods-RxItunesService_Example" */;
+			buildPhases = (
+				91273744082EA12929BCBFFEBFEFB6B4 /* Sources */,
+				F9174A6326D255C4D6EE2BEAF95A314D /* Frameworks */,
+				8485AA02E7A0AE746100D0F9C4138EE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776D2AB627CCEC7A63E2EFE2F96608A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-RxItunesService_Example";
+			productName = "Pods-RxItunesService_Example";
+			productReference = 3CF302A42309391E53ED01594C3D5F25 /* Pods_RxItunesService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8005644C54843E6E3974C46BA075B65 /* RxItunesService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BAF742F91685F662EDF1618B8DA7DC /* Build configuration list for PBXNativeTarget "RxItunesService" */;
+			buildPhases = (
+				8A186DE9E2565B377397D0452EA30F81 /* Sources */,
+				D3BD71AF013FDBC1B890C53D48669BF0 /* Frameworks */,
+				AEB70EAB2358C6AF3F519C05C157159D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxItunesService;
+			productName = RxItunesService;
+			productReference = 9A41351AFBA880CF72A22EFFDB99E632 /* RxItunesService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22F10E2CEF053E0289F1099198917469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6796AC8362F35D6AF26B1F5ABE262126 /* Pods-RxItunesService_Example */,
+				5319DC2BD5EAE910BEC8DBEE5E61CF3D /* Pods-RxItunesService_Tests */,
+				E8005644C54843E6E3974C46BA075B65 /* RxItunesService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A186DE9E2565B377397D0452EA30F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E86CE562708F474AD7B0E869E42A81 /* ReplaceMe.swift in Sources */,
+				2F7EFEB3AF44C75144FDB8BCA3B9CFA6 /* RxItunesService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BFAA74CED2D60B6C0B5063A7695330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F870F382CEA5526221860F5CB4CED543 /* Pods-RxItunesService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91273744082EA12929BCBFFEBFEFB6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EFAE0568693D8A58B5048450D373DB /* Pods-RxItunesService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776D2AB627CCEC7A63E2EFE2F96608A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxItunesService;
+			target = E8005644C54843E6E3974C46BA075B65 /* RxItunesService */;
+			targetProxy = DB8321A5ACBBD36E6DEC6F1E7054E390 /* PBXContainerItemProxy */;
+		};
+		C695E9CB1BC08D0815F03A208027E74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RxItunesService_Example";
+			target = 6796AC8362F35D6AF26B1F5ABE262126 /* Pods-RxItunesService_Example */;
+			targetProxy = B6FE1CF33D9AF45ED13E4AA931094491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16E620DF1AF9F0893B8ADD23B008B7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82674C3F6434396320EF9ECD43D30346 /* RxItunesService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxItunesService/RxItunesService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxItunesService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxItunesService/RxItunesService.modulemap";
+				PRODUCT_MODULE_NAME = RxItunesService;
+				PRODUCT_NAME = RxItunesService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		369985A7A1B486E0277BD3898D644CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C068F04297678176175C97E494585B0 /* Pods-RxItunesService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxItunesService_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxItunesService_Tests/Pods-RxItunesService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37B129CD53AE6BD3782B61C86724368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82674C3F6434396320EF9ECD43D30346 /* RxItunesService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxItunesService/RxItunesService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxItunesService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxItunesService/RxItunesService.modulemap";
+				PRODUCT_MODULE_NAME = RxItunesService;
+				PRODUCT_NAME = RxItunesService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		745086E92EC87206914F64F5266CBF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6291A4EA8BF949BD3ABEACA49617F5 /* Pods-RxItunesService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxItunesService_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxItunesService_Example/Pods-RxItunesService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A02ABBAD920621555A8835A787E1600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4731871410A2EE1F9F71116F19FCA559 /* Pods-RxItunesService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxItunesService_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxItunesService_Example/Pods-RxItunesService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F36D7E151C99BF23163FB80F3E679199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468CB7269A4A7186E74892F6E6DAFD6B /* Pods-RxItunesService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxItunesService_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxItunesService_Tests/Pods-RxItunesService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29490E0D96C23B30387B0FF1B879B589 /* Build configuration list for PBXNativeTarget "Pods-RxItunesService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745086E92EC87206914F64F5266CBF28 /* Debug */,
+				8A02ABBAD920621555A8835A787E1600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DED7BCBA098953AF79373119A031A5 /* Build configuration list for PBXNativeTarget "Pods-RxItunesService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369985A7A1B486E0277BD3898D644CCC /* Debug */,
+				F36D7E151C99BF23163FB80F3E679199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BAF742F91685F662EDF1618B8DA7DC /* Build configuration list for PBXNativeTarget "RxItunesService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B129CD53AE6BD3782B61C86724368E /* Debug */,
+				16E620DF1AF9F0893B8ADD23B008B7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
