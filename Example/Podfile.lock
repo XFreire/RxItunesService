@@ -1,15 +1,27 @@
 PODS:
-  - RxItunesService (0.1.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxItunesService (0.1.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
 
 DEPENDENCIES:
   - RxItunesService (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxSwift
 
 EXTERNAL SOURCES:
   RxItunesService:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxItunesService: b9a39063018c7e22e490e66dd89b130610994fa0
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxItunesService: 4b373ccba7e655d46adc649c0d466b62376be957
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
 
 PODFILE CHECKSUM: 73ae0a5470dc069003675b20b89936e389cb531e
 
