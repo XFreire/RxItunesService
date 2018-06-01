@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+public struct Result<T>: Decodable where T: Decodable {
+    let resultCount: Int
+    let results: [T]
+}

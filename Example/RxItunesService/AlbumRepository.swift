@@ -14,7 +14,7 @@ final class AlbumRepository {
     let webService = WebService()
     
     func album(withText text: String) -> Observable<[Album]> {
-        return webService.load(Result<Album>.self, from: .album(withText: text))
+        return webService.load(Result<Album>.self, from: .album(withText: text, limit: 10))
             .map{ $0.results }
     }
 }
