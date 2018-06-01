@@ -58,14 +58,14 @@ private extension Endpoint {
             return [
                 "term" : query,
                 "entity" : "allArtist",
-                "attibute" : "artistTerm",
+                "attibute" : "allArtistTerm",
                 "limit" : String(limit)
             ]
         case .songs(let query, let limit):
             return [
                 "term" : query,
                 "entity" : "allTrack",
-                "attibute" : "songTerm",
+                "attibute" : "allTrackTerm",
                 "limit" : String(limit)
             ]
         }

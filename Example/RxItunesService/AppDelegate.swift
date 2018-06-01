@@ -22,13 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Test album
         let repository = MusicRepository()
 
-        repository.albums(withQuery: "Extremoduro")
-            .subscribe(onNext: { albums in
-                print(albums)
-            }, onError: { error in
-                print(error)
-            })
-            .disposed(by: disposeBag)
+//        repository.albums(withQuery: "Extremoduro")
+//            .subscribe(onNext: { albums in
+//                print(albums)
+//            }, onError: { error in
+//                print(error)
+//            })
+//            .disposed(by: disposeBag)
 
 //        repository.artists(withQuery: "Platero")
 //            .subscribe(onNext: { artists in
@@ -38,13 +38,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            })
 //            .disposed(by: disposeBag)
 
-//        repository.songs(withQuery: "Standby")
-//            .subscribe(onNext: { artists in
-//                print(artists)
-//            }, onError: { error in
-//                print(error)
-//            })
-//            .disposed(by: disposeBag)
+        repository.songs(withQuery: "Standby")
+            .subscribe(onNext: { artists in
+                print(artists)
+            }, onError: { error in
+                print(error)
+            })
+            .disposed(by: disposeBag)
 
         
         return true
