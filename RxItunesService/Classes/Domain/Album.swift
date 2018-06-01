@@ -44,7 +44,8 @@ extension Album: CustomStringConvertible {
         Author: \(artistName),
         Track Count: \(trackCount),
         Genre: \(genre),
-        Price: \(price)
+        Price: \(price),
+        ReleaseDate: \(releaseDate)
         """
     }
     

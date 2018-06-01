@@ -14,7 +14,9 @@ enum HTTPMethod: String {
 }
 
 enum Endpoint {
-    case album(withQuery: String, limit: Int)
+    case albums(withQuery: String, limit: Int)
+    case artists(withQuery: String, limit: Int)
+    case songs(withQuery: String, limit: Int)
 }
 
 extension Endpoint {
@@ -41,18 +43,29 @@ private extension Endpoint {
     }
     
     var path: String {
-        switch self {
-        case .album:
-            return ""
-        }
+        return ""
     }
     
     var parameters: [String : String] {
         switch self {
-        case .album(withQuery: let query, limit: let limit):
+        case .albums(withQuery: let query, limit: let limit):
             return [
                 "term" : query,
                 "entity" : "album",
+                "limit" : String(limit)
+            ]
+        case .artists(let query, let limit):
+            return [
+                "term" : query,
+                "entity" : "allArtist",
+                "attibute" : "artistTerm",
+                "limit" : String(limit)
+            ]
+        case .songs(let query, let limit):
+            return [
+                "term" : query,
+                "entity" : "allTrack",
+                "attibute" : "songTerm",
                 "limit" : String(limit)
             ]
         }

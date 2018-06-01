@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0FC608E069A619983DA37844 /* Pods_RxItunesService_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397511689D642A23D922DF3C /* Pods_RxItunesService_Example.framework */; };
-		4B352AC920C148E5000A5D45 /* AlbumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B352AC820C148E5000A5D45 /* AlbumRepository.swift */; };
+		4B352AC920C148E5000A5D45 /* MusicRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B352AC820C148E5000A5D45 /* MusicRepository.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -33,7 +33,7 @@
 		2A6187A7F2E65F608C86834D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		397511689D642A23D922DF3C /* Pods_RxItunesService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxItunesService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42092F3A741F6AAC5F00338C /* Pods_RxItunesService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxItunesService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B352AC820C148E5000A5D45 /* AlbumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRepository.swift; sourceTree = "<group>"; };
+		4B352AC820C148E5000A5D45 /* MusicRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRepository.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RxItunesService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxItunesService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				4B352AC820C148E5000A5D45 /* AlbumRepository.swift */,
+				4B352AC820C148E5000A5D45 /* MusicRepository.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -331,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B352AC920C148E5000A5D45 /* AlbumRepository.swift in Sources */,
+				4B352AC920C148E5000A5D45 /* MusicRepository.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
