@@ -17,12 +17,12 @@ RxItunesService is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RxItunesService', 
+pod 'RxItunesService', :git => 'https://github.com/XFreire/RxItunesService', :branch => 'master'
 ```
 
 ## Author
 
-Alexandre Freire, xandrefreire@gmail.com
+Alexandre Freire
 
 ## License
 
