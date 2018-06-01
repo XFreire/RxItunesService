@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            })
 //            .disposed(by: disposeBag)
 
-        WebService().load(Result<Album>.self, from: .album(withText: "Extremoduro", limit: 10))
+        WebService().load(Result<Album>.self, from: .album(withQuery: "Extremoduro", limit: 10))
             .map{ $0.results }
             .subscribe(onNext: { albums in
                 print(albums)

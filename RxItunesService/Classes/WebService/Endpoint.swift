@@ -14,7 +14,7 @@ enum HTTPMethod: String {
 }
 
 enum Endpoint {
-    case album(withText: String, limit: Int)
+    case album(withQuery: String, limit: Int)
 }
 
 extension Endpoint {
@@ -49,9 +49,9 @@ private extension Endpoint {
     
     var parameters: [String : String] {
         switch self {
-        case .album(withText: let text, limit: let limit):
+        case .album(withQuery: let query, limit: let limit):
             return [
-                "term" : text,
+                "term" : query,
                 "entity" : "album",
                 "limit" : String(limit)
             ]

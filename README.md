@@ -15,7 +15,7 @@ let disposeBag = DisposeBag()
 ...
 
 
-webService.load(Result<Album>.self, from: .album(withText: "Extremoduro", limit: 10))
+webService.load(Result<Album>.self, from: .album(withQuery: "Extremoduro", limit: 10))
   .map{ $0.results }
   .subscribe(onNext: { albums in
     print(albums)
