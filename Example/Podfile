@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RxItunesService_Example' do
+  pod 'RxItunesService', :path => '../'
+
+  target 'RxItunesService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
